@@ -2,25 +2,62 @@
 <html lang="en">
     <head>
         <meta charset="UTF=8" />
-        <title>Demo html forms</title>
+        <title>Assignment-1 building html forms</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <form action="index.html" method="post">
-        <h1>SIGN UP</h1>
-        <fieldset>
-            <legend>
-                <span>1</span>
-                Your basic info
-            </legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" />
-            <label for="email">Email:</label>
-            <input type="email" id="email" />
-            <label for="password">Password:</label>
-            <input type="password" id="password" />
-        </fieldset>
-        </form>
+    <main>
+     <div class="container flex">
+    <div class="flex-48 intro-text">
+    <h1 class="heading">Learn to code by watching others</h1>
+    <p class="text">
+      See how experienced developers solve problem in real-time. 
+       watching scripted tutorials is great,but understanding how 
+       developers think is invaluable.
+    </p>
+     </div> 
+     <div class="flex-48">
+     <a class="btn btn-primary" href="#">
+         <strong>Try it free 7 days</strong>
+         then $20/month, thereafter
+     </a>   
+        
+         <form action=''>
+             <fieldset>
+                 <input class="form-control" 
+                 type="text" 
+                 placeholder="First Name" 
+                 required
+                 />
+                 <input class="form-control" 
+                 type="text" 
+                 placeholder="Last Name" 
+                 required
+                 />
+                 <input class="form-control"
+                  type="email" 
+                  placeholder="Email Address" 
+                  required
+                  />
+                 <input class="form-control"
+                  type="password" 
+                  placeholder="Password" 
+                  required
+                  />
+                 <input class="btn btn-secondary" 
+                 type="submit"
+                  value="calim Your Free Trail" 
+                  />
+                 <p>
+                     By clicking the button you are agreeing
+                     to our
+                     <a href="">Term and Services</a>
+                 </p>
+             </fieldset>
+         </form>
+     </div>
+    </main>
+       
 
     </body>
 
